@@ -9,3 +9,6 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+
+echo "le resultat random est : ".rand($_GET["numberMin"],$_GET["numberMax"]);
+
